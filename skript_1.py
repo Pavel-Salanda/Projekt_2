@@ -129,7 +129,6 @@ def number_series (edge):
     return(merged_rows) 
 
 def introduction ():
-    # přeložit docstring
     '''
     The purpose of the function is to display the introductory text and the rules of the game.
     '''
@@ -149,7 +148,6 @@ Let's start the game'''
     return(conected_all_text)
 
 def plaing_fields(field):
-    # přeložit docstring
     '''
     The function defines the indexes of the playing field into which the player marks "o" or "x" will be inserted. 
     The field where the player mark appears consists of three spaces. 
@@ -297,8 +295,3 @@ def main ():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
